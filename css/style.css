@@ -1,7 +1,15 @@
-body {
+header {
     background-color: #2c3e50;
 }
 
-main {
+#startSection {
     background-color: #1abc9c;
+}
+
+#aboutSection {
+    background-color: #1abc9c;
+}
+
+#messageBox {
+    min-height: 200px;
 }
