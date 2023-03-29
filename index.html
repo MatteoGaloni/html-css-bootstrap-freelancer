@@ -101,7 +101,7 @@
 
     <!-- ABOUT SECTION -->
     <section id="aboutSection">
-        <div class="container py-4">
+        <div class="container py-4 text-white">
             <div class="row text-center">
                 <h2 class="col">ABOUT</h2>
             </div>
@@ -109,30 +109,38 @@
                 <div class="col-1">
                     <hr>
                 </div>
-                <span class="col-1">STAR</span>
+                <div class="col-2"><i class="fa-solid fa-star"></i></div>
                 <div class="col-1">
                     <hr>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum commodi
-                    omnis,
-                    ea odit eius ipsam expedita corporis possimus veritatis nostrum natus sit sunt, fugiat,
-                    voluptatem
-                    id? Temporibus qui corporis animi.</div>
-                <div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum commodi
-                    omnis,
-                    ea odit eius ipsam expedita corporis possimus veritatis nostrum natus sit sunt, fugiat,
-                    voluptatem
-                    id? Temporibus qui corporis animi.</div>
-            </div>
-            <div class="row text-center">
-                <div class="col">
-                    <button type="button" class="btn btn-outline-secondary">Download</button>
+                <div class="col-10 col-md-5">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum commodi
+                        omnis,
+                        ea odit eius ipsam expedita corporis possimus veritatis nostrum natus sit sunt, fugiat,
+                        voluptatem
+                        id? Temporibus qui corporis animi.
+                    </p>
                 </div>
+                <div class="col-10 col-md-5">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum commodi
+                        omnis,
+                        ea odit eius ipsam expedita corporis possimus veritatis nostrum natus sit sunt, fugiat,
+                        voluptatem
+                        id? Temporibus qui corporis animi.
+                    </p>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <button type="button" class="btn btn-outline-light">
+                            <i class="fa-solid fa-download"></i>
+                            Download
+                        </button>
+                    </div>
 
+                </div>
             </div>
-        </div>
     </section>
 
     <!-- CONTACT -->
@@ -145,28 +153,32 @@
                 <div class="col-1">
                     <hr>
                 </div>
-                <span class="col-1">STAR</span>
+                <div class="col-2"><i class="fa-solid fa-star"></i></div>
                 <div class="col-1">
                     <hr>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-10">Name</div>
-                <hr>
-                <div class="col-10">Name</div>
-                <hr>
-                <div class="col-10">Name</div>
-                <hr>
-                <div class="col-1">MESSAGE</div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div id="messageBox" class="col"></div>
-                </div>
-                <div class="row text-start">
-                    <div class="col">
-                        <button type="button" class="btn btn-outline-secondary">Send</button>
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
                     </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <type="button" class="btn bg-success text-white">Send</button>
+
                 </div>
             </div>
         </div>
